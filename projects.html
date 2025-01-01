@@ -5,55 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
-<header class="projects-header">
-    <h1>My Projects</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-     </header>
-<section class="projects-container">
-        <div class="project-card" data-category="web">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="projects-header">
+        <h1>My Projects</h1>
+        <p>Explore some of my best work across various domains.</p>
+    </header>
+
+    <!-- Projects Section -->
+    <section class="projects-grid">
+        <div class="project-card">
             <img src="project1.jpg" alt="Project 1">
-            <div class="card-content">
-                <h3>Task Manager App</h3>
-                <p>A React-based task management tool to enhance productivity.</p>
-                <a href="#" class="btn">View Project</a>
+            <div class="project-info">
+                <h3>Project One</h3>
+                <p>An innovative web application for seamless collaboration.</p>
+                <a href="#" class="btn">View Details</a>
             </div>
         </div>
-<div class="project-card" data-category="design">
+        <div class="project-card">
             <img src="project2.jpg" alt="Project 2">
-            <div class="card-content">
-                <h3>Portfolio Website</h3>
-                <p>A sleek portfolio showcasing modern web design principles.</p>
-                <a href="#" class="btn">View Project</a>
+            <div class="project-info">
+                <h3>Project Two</h3>
+                <p>A dynamic e-commerce platform with advanced features.</p>
+                <a href="#" class="btn">View Details</a>
             </div>
         </div>
-<div class="project-card" data-category="tools">
+        <div class="project-card">
             <img src="project3.jpg" alt="Project 3">
-            <div class="card-content">
-                <h3>API Tester</h3>
-                <p>A lightweight tool for testing and managing API requests.</p>
-                <a href="#" class="btn">View Project</a>
+            <div class="project-info">
+                <h3>Project Three</h3>
+                <p>A mobile app for task management and productivity.</p>
+                <a href="#" class="btn">View Details</a>
             </div>
         </div>
-<div class="project-card" data-category="tools">
-            <img src="project4.jpg" alt="Project 3">
-            <div class="card-content">
-                <h3>API Tester</h3>
-                <p>A lightweight tool for testing and managing API requests.</p>
-                <a href="#" class="btn">View Project</a>
-            </div>
-        </div>  
-                <!-- Add more cards as needed -->
     </section>
+
+    <!-- Footer -->
     <footer>
         <p>&copy; 2024 Your Name | All Rights Reserved</p>
     </footer>
