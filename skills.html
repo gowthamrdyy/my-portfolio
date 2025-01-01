@@ -3,41 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Skills</title>
+    <title>Skills</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Your Name</div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="skills.html" class="active">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Skills Section -->
+    <header class="skills-hero">
+        <h1>My Professional Skills</h1>
+        <p>Explore my expertise across various technologies and tools.</p>
     </header>
-    <section class="skills">
-        <h2>Skills</h2>
-        <div class="skills-list">
-            <div class="skill">
-                <h3>HTML</h3>
-                <p>Expert in creating semantic, accessible HTML5 websites.</p>
-            </div>
-            <div class="skill">
-                <h3>CSS</h3>
-                <p>Proficient in modern CSS with Flexbox, Grid, and animations.</p>
-            </div>
-            <div class="skill">
-                <h3>JavaScript</h3>
-                <p>Strong JavaScript knowledge including ES6+ and DOM manipulation.</p>
-            </div>
-            <div class="skill">
-                <h3>React</h3>
-                <p>Experienced in building single-page applications using React.</p>
-            </div>
+
+    <section class="skills-grid">
+        <div class="skill-card">
+            <i class="skill-icon fa fa-html5"></i>
+            <h3>HTML5</h3>
+            <p>Expert in semantic HTML, accessibility, and creating user-friendly layouts.</p>
+        </div>
+        <div class="skill-card">
+            <i class="skill-icon fa fa-css3-alt"></i>
+            <h3>CSS3</h3>
+            <p>Proficient in Flexbox, Grid, animations, and responsive design techniques.</p>
+        </div>
+        <div class="skill-card">
+            <i class="skill-icon fa fa-js"></i>
+            <h3>JavaScript</h3>
+            <p>Deep understanding of ES6+, DOM manipulation, and building interactive features.</p>
+        </div>
+        <div class="skill-card">
+            <i class="skill-icon fa fa-react"></i>
+            <h3>React</h3>
+            <p>Experience in creating scalable SPAs using React.js and state management tools.</p>
+        </div>
+        <div class="skill-card">
+            <i class="skill-icon fa fa-database"></i>
+            <h3>Databases</h3>
+            <p>Skilled in SQL and NoSQL databases like MySQL, MongoDB, and Firebase.</p>
+        </div>
+        <div class="skill-card">
+            <i class="skill-icon fa fa-code"></i>
+            <h3>Version Control</h3>
+            <p>Proficient in Git and GitHub for version control and collaborative development.</p>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name | All Rights Reserved</p>
+    </footer>
 </body>
 </html>
