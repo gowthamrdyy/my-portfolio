@@ -8,50 +8,61 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <header class="about-header">
-        <nav>
-            <div class="logo">Your Name</div>
+    <bg color 
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Me</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+   
+<!-- Timeline Section -->
+    <section class="about" id="about">
+        <div class="section-title">
+          <h2>About Me</h2>
+          <p>A brief introduction to who I am</p>
+        </div>
+        <img src="a1.jpeg" alt="Profile Photo" class="timeline-photo">
+        <div class="about-container">
+          <div class="about-text">
+            <p>I'm a passionate web developer, constantly looking to learn new technologies and enhance my skills in software development.</p>
+          </div>
+      
+          <div class="timeline">
+            <h3>My Timeline</h3>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="skills.html">skills</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+              <li>
+                <span class="date">2025</span>
+                <div class="event">
+                  <h4>Graduated with a Computer Science degree</h4>
+                  <p>Completed my Bachelors and started working as a full-stack developer.</p>
+                </div>
+              </li>
+              <li>
+                <span class="date">2024</span>
+                <div class="event">
+                  <h4>Internship at XYZ Tech</h4>
+                  <p>Worked as a front-end developer, gaining hands-on experience in web development.</p>
+                </div>
+              </li>
+              <li>
+                <span class="date">2023</span>
+                <div class="event">
+                  <h4>Started Learning Web Development</h4>
+                  <p>My journey into the world of coding began with HTML, CSS, and JavaScript.</p>
+                </div>
+              </li>
             </ul>
-        </nav>
-        <h1>About Me</h1>
-        <p>Discover my journey, skills, and passions.</p>
-    </header>
-    <section class="about-intro">
-        <div class="intro-content">
-            <img src="a1.jpeg" alt="Profile Picture" class="profile-pic">
-            <div class="intro-text">
-                <h2>Hello, I'm [Your Name]</h2>
-                <p>I am a passionate [Your Profession] with expertise in [Key Skills]. I love crafting innovative solutions and bringing ideas to life with technology. With a focus on [Your Focus Area], I strive to make a positive impact through my work.</p>
-                <a href="#" class="btn">Download Resume</a>
-            </div>
+          </div>
         </div>
-    </section>
-    <section class="timeline">
-        <h2 class="section-title">My Journey</h2>
-        <div class="timeline-container">
-            <div class="timeline-item">
-                <span class="timeline-date">2024</span>
-                <div class="timeline-content">
-                    <h3>Started Freelancing</h3>
-                    <p>Delivered high-quality projects for diverse clients.</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <span class="timeline-date">2022</span>
-                <div class="timeline-content">
-                    <h3>Graduated</h3>
-                    <p>Earned a degree in Computer Science.</p>
-                </div>
-            </div>
-            <!-- Add more timeline items as needed -->
-        </div>
-    </section>
+      </section>
+      
 
+    <!-- Footer -->
     <footer>
         <p>&copy; 2024 Your Name | All Rights Reserved</p>
     </footer>
